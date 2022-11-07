@@ -1,0 +1,37 @@
+@media (max-width: 991px) {
+.intro__title {
+  font-size: 40px;
+}
+
+.nav {
+  display: none;
+}
+
+.burger {
+  display: block;
+}
+.burger__item {
+  display: block;
+  width: 30px;
+  height: 3px;
+
+  background: #fff;
+}
+}
+
+@media (max-width: 770px) {
+  .intro {
+    height: auto;
+    padding-top: 130px;
+    padding-bottom: 30px;
+  }
+
+  .intro__title {
+    font-size: 30px;
+  }
+
+  .intro__subtitle {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+}
